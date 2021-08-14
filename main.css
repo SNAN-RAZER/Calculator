@@ -1,0 +1,32 @@
+.outercontainer{
+    width:340px;
+    height:435px;
+    background-color: snow;
+    margin:100px auto;
+}
+.display{
+    width:100%;
+    background-color: black;
+    height:100px;
+    color: white;
+    box-sizing: border-box;
+    font-size: 3rem;
+    text-align: right;
+}
+.calc{
+    width:100%;
+    height:500px;
+
+}
+button{
+    outline: none;
+    border: none;
+    background-color: snow;
+}
+ .function{
+    background-color:  #FF8000;
+    color: white;
+}
+.function:active,button:active,.number:active {
+    background-color: #90ee90;
+}
